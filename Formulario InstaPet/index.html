@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InstaPet</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" href="gatito.ico" />
+  </head>
+  <body>
+    <div id="titulo">
+      <h1>InstaPet</h1>
+      <p>
+        Bienvenido a InstaPet una red social donde interactuas, ves fotos y
+        videos de otros Pets!!, a continuacion deberas crear una cuenta de tu
+        InstaPet
+      </p>
+    </div>
+    <div id="contenedor">
+      <iframe class="frame"
+        frameborder=""
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4648.286104873454!2d-58.523836280548416!3d-34.53241759989156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0cc2784157f%3A0xd49355189c3538a7!2sMapu%20Consultorio%20Veterinario!5e0!3m2!1ses!2sar!4v1711312739290!5m2!1ses!2sar"
+        width="350"
+        height="300"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <br />
+      <iframe class="frame"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/4mv2Un66tps?si=Gx1M5ETDgQa9Aces"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div id="contenedor2">
+      <form action="https://formspree.io/f/xbjnzjrg" method="POST">
+        <label>
+          <strong>Nombre de Pet</strong>
+          <input
+            required
+            placeholder="Nombre de InstaPet"
+            type="text"
+            name="nombre"
+            id="nombre_mascota"
+          />
+        </label>
+        <br />
+        <br />
+        <label for="Edad_mascota">
+          <strong>Edad de tu Pet</strong>
+          <input
+            id="Edad_mascota"
+            placeholder="Edad de InstaPet"
+            name="Edad"
+            required
+            type="number"
+          />
+        </label>
+        <br />
+        <br />
+        <label>
+          <strong> correo electronico del Pet</strong>
+          <input
+            name="Correo"
+            id="Correo_mascota"
+            placeholder="example@gmail.com"
+            required
+            type="email"
+          />
+        </label>
+        <br />
+        <br />
+        <label for="password_mascota">
+          <strong>Contraseña del Pet</strong>
+          <input
+            placeholder=" • • • • • • • • •"
+            id="password_mascota"
+            name="password"
+            required
+            type="password"
+          />
+        </label>
+        <br />
+        <br />
+        <label>
+          <strong>Color de tu Pet</strong>
+          <input id="color" name="Color_mascota" required type="color" />
+        </label>
+        <br />
+        <br />
+        <label>
+          <strong>Genero de tu Pet</strong> <br />
+          <input value="Mujer" name="Genero_mascota" required type="radio" />
+          <label id="mujer">Femenino</label> <br />
+          <input
+            value="Hombre"
+            name="Genero_mascota"
+            required
+            type="radio"
+          /><label id="hombre">Masculino</label> <br />
+        </label>
+        <br />
+        <br />
+        <label>
+          <strong>Elegi que tipo de animal va a ser tu Pet</strong>
+          <select required name="tipo" id="opciones">
+            <option value="Guau">Perro</option>
+            <option value="Miau">Gato</option>
+            <option value="Mehhh">Oveja</option>
+            <option value="Oing">Cerdo</option>
+          </select>
+        </label>
+        <br />
+        <br />
+        <label
+          ><strong>Contanos como es tu mascota</strong>
+          <textarea
+            name="descripcion"
+            required
+            id="textarea"
+            rows="10"
+            cols="40"
+          >
+          </textarea>
+        </label>
+        <br />
+        <br />
+        <label
+          ><strong>Acepto las bases y condiciones</strong>
+          <input
+            required
+            value="Acepta"
+            name="bases\_y\_condiciones"
+            type="checkbox"
+          />
+        </label>
+        <br />
+        <br />
+        <br />
+        <input id="Boton" type="submit" />
+      </form>
+    </div>
+  </body>
+</html>

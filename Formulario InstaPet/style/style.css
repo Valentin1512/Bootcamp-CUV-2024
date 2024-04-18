@@ -1,0 +1,114 @@
+#titulo{
+    background-color: rgb(5, 238, 180);
+    width: 800px;
+    margin: 60px auto;
+    margin-top: 10px;
+    border: solid black;
+    border-radius: 60px;
+    
+}
+    
+
+
+p{
+    font-size: 20px;
+    color: white;
+    font-family: monospace;
+    padding-left: 40px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://nintendosoup.com/wp-content/uploads/2020/02/animal-crossing-new-horizons-walmart-wallpaper-feb192020-1.jpeg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+#nombre_mascota{
+   font-size: 30px;
+   background-color: #ff758f;
+}
+
+label{
+    font-size: 30px;
+    color: black
+}
+
+#Edad_mascota{
+    font-size: 30px;
+    background-color: #80ed99;
+}
+
+#Correo_mascota{
+    font-size: 30px;
+    background-color: #a2d2ff;
+}
+
+#password_mascota{
+    font-size: 30px;
+    background-color: #cdb4db;
+}
+
+#color_mascota{
+    font-size: 30px;
+}
+
+h1{
+    padding-left: 230px;
+    font-style: oblique;
+}
+
+#Boton{
+    font-size: 30px;
+    background-color: aqua;
+}
+
+#mujer{
+    color: pink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#hombre{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#opciones{
+    font-size: 30px;
+    background-color:#ACC8E5;
+}
+
+#textarea{
+    background-color:#f4978e
+}
+
+#contenedor2{
+    display: flex;
+    justify-content: end;
+    background-color: rgb(5, 238, 180);
+    width: 800px;
+    margin: 60px auto;
+    margin-top: 10px;
+    border: solid black;
+    border-radius: 60px;
+    
+}
+ 
+.frame{
+   display: flex;
+   flex-direction: column;
+}
+
+#contenedor{
+    display: flex;
+    justify-content: center;
+  
+    
+    
+}
+
+
+
+
+
