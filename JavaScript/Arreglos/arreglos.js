@@ -74,21 +74,21 @@ Ir guardando esos números y mostrar:
 - la suma de todos los números ingresados*/
 
 
-let numeros = parseFloat(prompt("ingrese números"))
-let continuar= prompt("si desea finalizar escriba stop")
-let cantidadDeNumeros= []
-let indice = 0
-
-while(continuar !="stop"){
-    cantidadDeNumeros[indice] = numeros
-    numeros = parseFloat(prompt("ingrese números"))
-    continuar= prompt("si desea finalizar escriba stop")
-    indice++
+let lista = [];
+let numero = prompt("ingrese un numero o la palabra stop para finalizar");
+let sumaTotal = 0;
+while(numero != "STOP"){
+    lista.push(parseInt(numero)) //agregar al array cada numero ingresado;
+    sumaTotal = parseInt(sumaTotal) + numero;
+    numero = parseFloat(prompt("ingrese un numero o la palabra stop para finalizar"));
 }
 
-console.log("la cantidad de numeros ingresados son: " + )
-console.log("el 3º y ultimo numero ingresados son: " + cantidadDeNumeros[2])
-console.log("la suma de todos los numeros ingresados son: " + (cantidadDeNumeros+indice))
+console.log("Cantidad de numeros ingresados= " + lista.length);
+console.log("El 3 numero es " + lista[2]);
+console.log("El ultimo numero es " + lista[lista.length -1]);
+console.log("La suma total es " + sumaTotal);
+
+
 
 
 
